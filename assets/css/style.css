@@ -8,6 +8,16 @@ body {
     background-color: #d9dcd6;
 }
 
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Header Styles Start*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +34,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +42,19 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/* Header Styles End*/
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-p {
-    font-size: 16px;
-}
 
+/* Hero Section Styles*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +64,7 @@ p {
     background-position: center;
 }
 
+/* Float Left and Right Styles */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,13 +74,33 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* Content Styles Start*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.content div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content img {
+    max-height: 200px; 
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Content Styles End*/
+
+/* Benefits Styles Start*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +112,24 @@ p {
     background-color: #2589bd;
 }
 
+.benefits div {
+    margin-bottom: 32px;
+    color: #ffffff; 
+}
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Benefits Styles End*/
+/*
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -133,7 +177,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -173,6 +217,7 @@ p {
     max-height: 200px;
 }
 
+
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,7 +232,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+*/
+/* Footer Section Styles */
 .footer {
     padding: 30px;
     clear: both;
