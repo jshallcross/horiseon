@@ -1,6 +1,7 @@
 # horiseon
 Horiseon - Social Solutions, Inc.
 
+# University of Toronto Coding Bootcamp - Week 1 Challenge
 Landing page for Horiseon.
 The client had asked me to update their website landing page so it is optimized for search engines and follows accessibility standards. 
 The existing code was refactored with semantic HTML that now follows a logical structure.
